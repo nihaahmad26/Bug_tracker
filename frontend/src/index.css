@@ -1,3 +1,17 @@
 html{
     margin-left: 20vw;
 }
+
+button{
+    background: orange;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font: normal bold 18 px "Open Sans", sans-serif;
+    text-align: center;
+}
+
+button:hover{
+    transition:all 0.3s;
+    background: hotpink;
+}

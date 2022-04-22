@@ -1,0 +1,29 @@
+.loginBG{
+    width:100vw;
+    height: 105vh;
+    position: absolute;
+}
+
+.login-panel{
+    width: 30vw;
+    border: 1 px black;
+    background-color: pink;
+    border-radius: 5px;
+    margin: 25vh auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-panel h1{
+    width: 100%;
+}
+
+.login-panel input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    padding-left: 5px;
+}
