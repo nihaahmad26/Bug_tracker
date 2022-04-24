@@ -1,0 +1,23 @@
+.dashboard-card{
+    border-radius: 5px;
+    background-color: beige;
+    min-width: 275px;
+    min-height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.dashboard-card h2{
+    width: 1.5rem;
+    margin-top: 5px;    
+}
+
+.dashboard-card p{
+    font-size: 1.5rem;
+    margin: 50px;
+}

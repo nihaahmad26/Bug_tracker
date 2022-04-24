@@ -1,13 +1,13 @@
 .loginBG{
-    width:100vw;
-    height: 105vh;
+    width: 800px;
     position: absolute;
 }
 
 .login-panel{
-    width: 30vw;
+    width: 325px;
     border: 1 px black;
     background-color: pink;
+    padding: 5px;
     border-radius: 5px;
     margin: 25vh auto;
     flex-wrap: wrap;

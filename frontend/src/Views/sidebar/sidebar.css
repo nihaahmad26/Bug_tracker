@@ -1,0 +1,39 @@
+.sidebar{
+    position: fixed;
+    grid-column: 1;
+    width: 20%;
+    height: 100vh;
+    background-color: pink;
+    text-align: center;
+}
+
+.sidebar li{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px groove red;
+}
+.sidebar li:hover{
+    transition: all 0.3s;
+    background-color: orange;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebar .nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .logout{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+html {
+    margin: 0px;
+}
